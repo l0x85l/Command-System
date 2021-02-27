@@ -3,7 +3,7 @@ Minecraft 1.8.9 based like bukkit command system
 
 # Setup
 go to ``EntityPlayerSP`` class and change ``sendChatMessage`` method to;
-``
+```
 public void sendChatMessage(String message) {
 	   if (CommandManager.isCommand(message)) {
 		   final Command cmd = CommandManager.findCommand(message);
@@ -14,7 +14,7 @@ public void sendChatMessage(String message) {
 		   this.sendQueue.addToSendQueue(new C01PacketChatMessage(message));
 	   }
    }
-   ``
+   ```
    
    then go your main class and put your initialize method;
    ``
