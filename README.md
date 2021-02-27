@@ -19,5 +19,4 @@ public void sendChatMessage(String message) {
    then go your main class and put your initialize method;
    ``
    CommandManager.loadCommands();
-   
-``
+   ``
