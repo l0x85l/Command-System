@@ -13,10 +13,7 @@ public class CommandManager {
     private static final String prefix = ".";
 
     public static void loadCommands() {
-        commands.add(new Command("help", "list of all commands", new Help()));
-        commands.add(new Command("mod", "mod management command", new Mod()));
-        commands.add(new Command("mods", "list of all mods", new Mods()));
-        commands.add(new Command("cosmetic", "get best cosmetics", new Cosmetic()));
+        commands.add(new Command("help", "list of all commands", new Help()));      
         Neko.getInstance().logger.info("[" + Neko.getInstance().name + "] " + commands.size() + " cmd loaded");
 
     }
