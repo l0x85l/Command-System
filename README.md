@@ -1,6 +1,5 @@
 # Command-System
 Minecraft 1.8.9 based like bukkit command system
-thanks for the args @sh1ry
 
 # Setup
 go to ``EntityPlayerSP`` class and change ``sendChatMessage`` method to;
@@ -21,3 +20,7 @@ public void sendChatMessage(String message) {
    ``
    CommandManager.loadCommands();
    ``
+   
+   #Credits
+   [test](https://github.com/pandao/editor.md "Heading link")
+   
