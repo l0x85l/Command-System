@@ -22,5 +22,5 @@ public void sendChatMessage(String message) {
    ``
    
    # Credits
-   [test](https://github.com/pandao/editor.md "Heading link")
+   [Shiryu](https://github.com/pandao/editor.md "Heading link")
    
