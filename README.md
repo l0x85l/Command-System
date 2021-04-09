@@ -21,6 +21,6 @@ public void sendChatMessage(String message) {
    CommandManager.loadCommands();
    ``
    
-   #Credits
+   # Credits
    [test](https://github.com/pandao/editor.md "Heading link")
    
